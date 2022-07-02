@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		0590A3AF286B2D0200CE70F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590A3AE286B2D0200CE70F6 /* AppDelegate.swift */; };
 		0590A3B1286B2D0200CE70F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590A3B0286B2D0200CE70F6 /* SceneDelegate.swift */; };
-		0590A3B3286B2D0200CE70F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590A3B2286B2D0200CE70F6 /* ViewController.swift */; };
+		0590A3B3286B2D0200CE70F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590A3B2286B2D0200CE70F6 /* MainViewController.swift */; };
 		0590A3B6286B2D0200CE70F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0590A3B4286B2D0200CE70F6 /* Main.storyboard */; };
 		0590A3B8286B2D0300CE70F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0590A3B7286B2D0300CE70F6 /* Assets.xcassets */; };
 		0590A3BB286B2D0300CE70F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0590A3B9286B2D0300CE70F6 /* LaunchScreen.storyboard */; };
 		0590A3C6286B2D0300CE70F6 /* number_conuter_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590A3C5286B2D0300CE70F6 /* number_conuter_appTests.swift */; };
 		0590A3D0286B2D0300CE70F6 /* number_conuter_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590A3CF286B2D0300CE70F6 /* number_conuter_appUITests.swift */; };
 		0590A3D2286B2D0300CE70F6 /* number_conuter_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590A3D1286B2D0300CE70F6 /* number_conuter_appUITestsLaunchTests.swift */; };
+		05AF2E7D28709A2C00AC0F47 /* 110955-rocket-launch-animation-space-exploration.json in Resources */ = {isa = PBXBuildFile; fileRef = 05AF2E7C28709A2C00AC0F47 /* 110955-rocket-launch-animation-space-exploration.json */; };
+		10EE245812B034ED69151CE6 /* Pods_number_conuter_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3707094B60F3B5DDB32A80 /* Pods_number_conuter_app.framework */; };
+		1AB21FC4288B5CDB6D4DB1E1 /* Pods_number_conuter_app_number_conuter_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24BE6C79C4B945F4A2536CF /* Pods_number_conuter_app_number_conuter_appUITests.framework */; };
+		BF0D930A2FB389CA4A5782B6 /* Pods_number_conuter_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0297FAED4F3F9966A974BD17 /* Pods_number_conuter_appTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0297FAED4F3F9966A974BD17 /* Pods_number_conuter_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_number_conuter_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0590A3AB286B2D0200CE70F6 /* number-conuter-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "number-conuter-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0590A3AE286B2D0200CE70F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0590A3B0286B2D0200CE70F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0590A3B2286B2D0200CE70F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0590A3B2286B2D0200CE70F6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0590A3B5286B2D0200CE70F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0590A3B7286B2D0300CE70F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0590A3BA286B2D0300CE70F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		0590A3CB286B2D0300CE70F6 /* number-conuter-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "number-conuter-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0590A3CF286B2D0300CE70F6 /* number_conuter_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number_conuter_appUITests.swift; sourceTree = "<group>"; };
 		0590A3D1286B2D0300CE70F6 /* number_conuter_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number_conuter_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05AF2E7C28709A2C00AC0F47 /* 110955-rocket-launch-animation-space-exploration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "110955-rocket-launch-animation-space-exploration.json"; sourceTree = "<group>"; };
+		0903025207302C16D0C26FD1 /* Pods-number-conuter-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-number-conuter-app.debug.xcconfig"; path = "Target Support Files/Pods-number-conuter-app/Pods-number-conuter-app.debug.xcconfig"; sourceTree = "<group>"; };
+		3D38F14CDA924EE3D2EEC3E3 /* Pods-number-conuter-app-number-conuter-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-number-conuter-app-number-conuter-appUITests.release.xcconfig"; path = "Target Support Files/Pods-number-conuter-app-number-conuter-appUITests/Pods-number-conuter-app-number-conuter-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67F6E6DD066E03F2899BCA65 /* Pods-number-conuter-app-number-conuter-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-number-conuter-app-number-conuter-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-number-conuter-app-number-conuter-appUITests/Pods-number-conuter-app-number-conuter-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C3707094B60F3B5DDB32A80 /* Pods_number_conuter_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_number_conuter_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4A7C0D8A8F96EB0E5B5AEB /* Pods-number-conuter-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-number-conuter-app.release.xcconfig"; path = "Target Support Files/Pods-number-conuter-app/Pods-number-conuter-app.release.xcconfig"; sourceTree = "<group>"; };
+		78B58FF70EC42437963FE40D /* Pods-number-conuter-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-number-conuter-appTests.debug.xcconfig"; path = "Target Support Files/Pods-number-conuter-appTests/Pods-number-conuter-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		891AFF8AE088D793993C5D3E /* Pods-number-conuter-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-number-conuter-appTests.release.xcconfig"; path = "Target Support Files/Pods-number-conuter-appTests/Pods-number-conuter-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		D24BE6C79C4B945F4A2536CF /* Pods_number_conuter_app_number_conuter_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_number_conuter_app_number_conuter_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EE245812B034ED69151CE6 /* Pods_number_conuter_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0D930A2FB389CA4A5782B6 /* Pods_number_conuter_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB21FC4288B5CDB6D4DB1E1 /* Pods_number_conuter_app_number_conuter_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				0590A3C4286B2D0300CE70F6 /* number-conuter-appTests */,
 				0590A3CE286B2D0300CE70F6 /* number-conuter-appUITests */,
 				0590A3AC286B2D0200CE70F6 /* Products */,
+				4EC1136197B3C81E03ABCA1A /* Pods */,
+				E281C58B86B9F115CFFCE852 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +118,10 @@
 		0590A3AD286B2D0200CE70F6 /* number-conuter-app */ = {
 			isa = PBXGroup;
 			children = (
+				05AF2E7C28709A2C00AC0F47 /* 110955-rocket-launch-animation-space-exploration.json */,
+				05AF2E7B2870971000AC0F47 /* ViewControllers */,
 				0590A3AE286B2D0200CE70F6 /* AppDelegate.swift */,
 				0590A3B0286B2D0200CE70F6 /* SceneDelegate.swift */,
-				0590A3B2286B2D0200CE70F6 /* ViewController.swift */,
 				0590A3B4286B2D0200CE70F6 /* Main.storyboard */,
 				0590A3B7286B2D0300CE70F6 /* Assets.xcassets */,
 				0590A3B9286B2D0300CE70F6 /* LaunchScreen.storyboard */,
@@ -127,6 +147,37 @@
 			path = "number-conuter-appUITests";
 			sourceTree = "<group>";
 		};
+		05AF2E7B2870971000AC0F47 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0590A3B2286B2D0200CE70F6 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EC1136197B3C81E03ABCA1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0903025207302C16D0C26FD1 /* Pods-number-conuter-app.debug.xcconfig */,
+				6E4A7C0D8A8F96EB0E5B5AEB /* Pods-number-conuter-app.release.xcconfig */,
+				67F6E6DD066E03F2899BCA65 /* Pods-number-conuter-app-number-conuter-appUITests.debug.xcconfig */,
+				3D38F14CDA924EE3D2EEC3E3 /* Pods-number-conuter-app-number-conuter-appUITests.release.xcconfig */,
+				78B58FF70EC42437963FE40D /* Pods-number-conuter-appTests.debug.xcconfig */,
+				891AFF8AE088D793993C5D3E /* Pods-number-conuter-appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E281C58B86B9F115CFFCE852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3707094B60F3B5DDB32A80 /* Pods_number_conuter_app.framework */,
+				D24BE6C79C4B945F4A2536CF /* Pods_number_conuter_app_number_conuter_appUITests.framework */,
+				0297FAED4F3F9966A974BD17 /* Pods_number_conuter_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0590A3D5286B2D0300CE70F6 /* Build configuration list for PBXNativeTarget "number-conuter-app" */;
 			buildPhases = (
+				1AF2AFFB91BCDD43C50BF22F /* [CP] Check Pods Manifest.lock */,
 				0590A3A7286B2D0200CE70F6 /* Sources */,
 				0590A3A8286B2D0200CE70F6 /* Frameworks */,
 				0590A3A9286B2D0200CE70F6 /* Resources */,
+				107514164FEE1EF3FBC908A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0590A3D8286B2D0300CE70F6 /* Build configuration list for PBXNativeTarget "number-conuter-appTests" */;
 			buildPhases = (
+				A1A5410B797C2A90BAC9DD4F /* [CP] Check Pods Manifest.lock */,
 				0590A3BD286B2D0300CE70F6 /* Sources */,
 				0590A3BE286B2D0300CE70F6 /* Frameworks */,
 				0590A3BF286B2D0300CE70F6 /* Resources */,
@@ -169,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0590A3DB286B2D0300CE70F6 /* Build configuration list for PBXNativeTarget "number-conuter-appUITests" */;
 			buildPhases = (
+				F1867895601F443E30DF61A4 /* [CP] Check Pods Manifest.lock */,
 				0590A3C7286B2D0300CE70F6 /* Sources */,
 				0590A3C8286B2D0300CE70F6 /* Frameworks */,
 				0590A3C9286B2D0300CE70F6 /* Resources */,
+				75593F084BDD38DD2365E5E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +290,7 @@
 				0590A3BB286B2D0300CE70F6 /* LaunchScreen.storyboard in Resources */,
 				0590A3B8286B2D0300CE70F6 /* Assets.xcassets in Resources */,
 				0590A3B6286B2D0200CE70F6 /* Main.storyboard in Resources */,
+				05AF2E7D28709A2C00AC0F47 /* 110955-rocket-launch-animation-space-exploration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +310,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		107514164FEE1EF3FBC908A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-number-conuter-app/Pods-number-conuter-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-number-conuter-app/Pods-number-conuter-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-number-conuter-app/Pods-number-conuter-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AF2AFFB91BCDD43C50BF22F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-number-conuter-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75593F084BDD38DD2365E5E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-number-conuter-app-number-conuter-appUITests/Pods-number-conuter-app-number-conuter-appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-number-conuter-app-number-conuter-appUITests/Pods-number-conuter-app-number-conuter-appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-number-conuter-app-number-conuter-appUITests/Pods-number-conuter-app-number-conuter-appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A5410B797C2A90BAC9DD4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-number-conuter-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1867895601F443E30DF61A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-number-conuter-app-number-conuter-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0590A3A7286B2D0200CE70F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0590A3B3286B2D0200CE70F6 /* ViewController.swift in Sources */,
+				0590A3B3286B2D0200CE70F6 /* MainViewController.swift in Sources */,
 				0590A3AF286B2D0200CE70F6 /* AppDelegate.swift in Sources */,
 				0590A3B1286B2D0200CE70F6 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,6 +592,7 @@
 		};
 		0590A3D6286B2D0300CE70F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0903025207302C16D0C26FD1 /* Pods-number-conuter-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +621,7 @@
 		};
 		0590A3D7286B2D0300CE70F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4A7C0D8A8F96EB0E5B5AEB /* Pods-number-conuter-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +650,7 @@
 		};
 		0590A3D9286B2D0300CE70F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B58FF70EC42437963FE40D /* Pods-number-conuter-appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +671,7 @@
 		};
 		0590A3DA286B2D0300CE70F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891AFF8AE088D793993C5D3E /* Pods-number-conuter-appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +692,7 @@
 		};
 		0590A3DC286B2D0300CE70F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F6E6DD066E03F2899BCA65 /* Pods-number-conuter-app-number-conuter-appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +711,7 @@
 		};
 		0590A3DD286B2D0300CE70F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D38F14CDA924EE3D2EEC3E3 /* Pods-number-conuter-app-number-conuter-appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
